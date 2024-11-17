@@ -4,10 +4,215 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herdy's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="header">
+      <nav>
+        <h3 class="web-title">Ma<span class="title-span">r</span>y</h3>
+        <ul>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><button class="btn-primary">Hire Me</button></li>
+        </ul>
+      </nav>
+      <div class="banner">
+        <div class="para-container">
+          <h3 class="banner-greeting">Hi, I am</h3>
+          <h1 class="banner-title">Mary Herdy</h1>
+          <p class="banner-desc">
+            Skilled in modern web technologies, I turn ideas into seamless
+            digital experiences.
+          </p>
+
+          <button class="btn-primary">Download Cv</button>
+          <button class="btn-primary">Contact</button>
+        </div>
+        <div class="img-container">
+          <img src="images/hardy.png" alt="" class="profile" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="about">
+        <h3 class="section-title">About Me</h3>
+        <p class="section-desc">
+          I'm a passionate web developer skilled in creating responsive,
+          user-friendly websites using modern technologies. I specialize in
+          turning creative ideas into seamless digital experiences.
+        </p>
+        <div class="about-info-container">
+          <div class="about-info">
+            <h4 class="info-title">Name:</h4>
+            <p class="info-desc">Marry Herdy</p>
+          </div>
+          <div class="about-info">
+            <h4 class="info-title">Email:</h4>
+            <p class="info-desc">marryherdy@gmail.com</p>
+          </div>
+          <div class="about-info">
+            <h4 class="info-title">Date of Birth:</h4>
+            <p class="info-desc">1 sept 3024</p>
+          </div>
+          <div class="about-info">
+            <h4 class="info-title">From:</h4>
+            <p class="info-desc">Chicago, USA</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3 class="section-title">What I Do</h3>
+        <p id="what-I-do-desc" class="section-desc">
+          From front-end development that ensures a seamless user interface to
+          back-end solutions that handle complex processes efficiently, I craft
+          websites that meet both user needs and business goals. With a passion
+          for coding and a keen eye for detail, I transform visions into fully
+          functional, visually stunning online platforms.
+        </p>
+
+        <div class="skills-container">
+          <div class="skill">
+            <img src="images/icons/js.png" alt="" class="skill-img" />
+            <h3 class="skill-title">Vanilla Js</h3>
+            <p class="skill-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui saepe
+              commodi esse laudantium at voluptatem voluptate corrupti,
+              voluptatum aliquam impedit?
+            </p>
+          </div>
+          <div class="skill">
+            <img src="images/icons/react.png" alt="" class="skill-img" />
+            <h3 class="skill-title">React Js</h3>
+            <p class="skill-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+              quo! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Eaque praesentium unde beatae perspiciatis nisi, hic autem sequi
+              assumenda dolorem excepturi.
+            </p>
+          </div>
+          <div class="skill">
+            <img src="images/icons/nodejs.png" alt="" class="skill-img" />
+            <h3 class="skill-title">Node Js</h3>
+            <p class="skill-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+              nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates quod quidem sunt consequuntur corporis officiis maxime
+              sint pariatur dignissimos? Repellat!
+            </p>
+          </div>
+          <div class="skill">
+            <img src="images/icons/mongo.png" alt="" class="skill-img" />
+            <h3 class="skill-title">Mongo</h3>
+            <p class="skill-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              qui!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3 class="section-title">A Summary of My Resume</h3>
+        <div class="resume-container">
+          <div class="education-col">
+            <h3 class="resume-col-title">My Education</h3>
+            <div class="resume-item">
+              <h3 class="resume-heading">Master's in Computer Engineering</h3>
+              <h4 class="resume-subheading">Harvard University, 3000 BCE</h4>
+              <p class="resume-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+                doloribus sequi nobis sunt ad nostrum.
+              </p>
+            </div>
+            <hr />
+            <div class="resume-item">
+              <h3 class="resume-heading">Master's in Software Engineering</h3>
+              <h4 class="resume-subheading">Alexandria, 3011 BCE</h4>
+              <p class="resume-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+                molestiae. Temporibus accusamus deserunt dolore repellat.
+              </p>
+            </div>
+            <hr />
+            <div class="resume-item">
+              <h3 class="resume-heading">Hon's in Computer Science</h3>
+              <h4 class="resume-subheading">Oxford University, 3014 BC</h4>
+              <p class="resume-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis dolor aliquam similique possimus. Debitis, ipsam!
+              </p>
+            </div>
+          </div>
+          <div class="experience-col">
+            <h3 class="resume-col-title">My Experience</h3>
+            <div class="resume-item">
+              <h3 class="resume-heading">Junior Front-End Developer</h3>
+              <h4 class="resume-subheading">3022-3025</h4>
+              <p class="resume-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+                provident illum doloremque tempore delectus hic.
+              </p>
+            </div>
+            <hr />
+            <div class="resume-item">
+              <h3 class="resume-heading">Junior Backend Developer</h3>
+              <h4 class="resume-subheading">3025-3029</h4>
+              <p class="resume-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                obcaecati sunt aliquid, eveniet nihil id!
+              </p>
+            </div>
+            <hr />
+            <div class="resume-item">
+              <h3 class="resume-heading">Full-Stack Developer</h3>
+              <h4 class="resume-subheading">3030-3035</h4>
+              <p class="resume-desc">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptas, sed sunt quis quidem dolor quam.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="download-cv">
+          <button class="btn-primary">Download CV</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-col">
+        <h3 class="section-title">Let's Connect</h3>
+        <p class="section-desc">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
+          aut?
+        </p>
+        <div class="social-icons">
+          <a href="#"> <img src="images/icons/facebook.png" alt="" /></a>
+          <a href="#"><img src="images/icons/twitter.png" alt="" /></a>
+          <a href="#"><img src="images/icons/insta.png" alt="" /></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3 class="section-title">Let's Message Me</h3>
+        <form action="" class="contact">
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+          <textarea
+            name=""
+            cols="30"
+            rows="10"
+            id=""
+            placeholder="Your Message"
+          ></textarea>
+          <input class="btn-primary" type="submit" value="submit" />
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
